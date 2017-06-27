@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="buildSrc:test" external.linked.project.path="$MODULE_DIR$/../../buildSrc" external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output-test url="file://$MODULE_DIR$/../../buildSrc/build/classes/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../buildSrc/src/test">
@@ -50,7 +50,17 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.0.0-beta-3" level="project" />
-    <orderEntry type="library" name="Gradle: com.sun.codemodel:codemodel:2.6" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: com.sun.codemodel:codemodel:2.6">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.codemodel/codemodel/2.6/cde4647fcebedb3663bccc79e21789e8e6755a19/codemodel-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.codemodel/codemodel/2.6/d24b0e6744bd8f38b36cb77f8ab7b2341590af93/codemodel-2.6-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
   <component name="TestModuleProperties" production-module="buildSrc_main" />
 </module>
